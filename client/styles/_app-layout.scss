@@ -1,0 +1,12 @@
+.app-wrapper {
+  @extend .flex-vert;
+
+  main {
+    flex-grow: 1;
+  }
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row-reverse;
+  }
+}
+
